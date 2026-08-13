@@ -1,40 +1,22 @@
-import { Header } from "@/components/Header";
+﻿import { Header } from "@/components/Header";
+import { DesktopLogoStrip, MobileLogoStrip } from "@/components/LogoStrip";
 import { Hero } from "@/components/sections/Hero";
-import { LogoStrip } from "@/components/LogoStrip";
-import { Credenciales } from "@/components/sections/Credenciales";
-import { QueHacemos } from "@/components/sections/QueHacemos";
-import { QueTeLlevas } from "@/components/sections/QueTeLlevas";
-import { ParaQuien } from "@/components/sections/ParaQuien";
-import { Aprendizaje } from "@/components/sections/Aprendizaje";
-import { Cronograma } from "@/components/sections/Cronograma";
-import { Modalidades } from "@/components/sections/Modalidades";
-import { QuienLoDicta } from "@/components/sections/QuienLoDicta";
-import { Precio } from "@/components/sections/Precio";
-import { Requisitos } from "@/components/sections/Requisitos";
-import { FAQ } from "@/components/sections/FAQ";
-import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#0a0b0d] text-white">
       <Header />
-      <LogoStrip />
+
+      <div className="pt-16">
+        <MobileLogoStrip />
+        <DesktopLogoStrip />
+      </div>
+
       <main>
         <Hero />
-        <Credenciales />
-        <QueHacemos />
-        <QueTeLlevas />
-        <ParaQuien />
-        <Aprendizaje />
-        <Cronograma />
-        <Modalidades />
-        <QuienLoDicta />
-        <Precio />
-        <Requisitos />
-        <FAQ />
-        <FinalCTA />
       </main>
+
       <Footer />
     </div>
   );
