@@ -1,11 +1,11 @@
 const requirements = [
-  { text: "Una computadora personal para trabajar durante el workshop." },
-  { text: "Interés en Inteligencia Artificial y automatización." },
-  { text: "Conocimientos básicos de uso de computadora e Internet." },
-  { text: "Poder crear y utilizar cuentas en las herramientas que vamos a utilizar durante la jornada." },
-  { text: "Tener disponible un espacio para descargar el repositorio y los recursos del workshop." },
-  { text: "Tener ganas de hacer y experimentar, no solamente mirar la clase." },
-  { text: "Si tenés un proyecto, emprendimiento, negocio o proceso que quieras mejorar con IA, podés traerlo como caso práctico. En el caso de que no consigas, te vamos a ayudar a que lo encuentres." },
+  { text: "Una computadora funcional para trabajar con la base y seguir la práctica en vivo." },
+  { text: "Interés genuino en IA, automatización y resolver problemas con datos." },
+  { text: "Conocimientos básicos de uso de computadora y conexión a internet." },
+  { text: "Disponibilidad para crear cuentas y abrir las herramientas que vamos a utilizar en la jornada." },
+  { text: "Espacio suficiente para descargar la base de trabajo y los materiales del workshop." },
+  { text: "Ganas de experimentar, iterar y aprender haciendo, no solo mirando la clase." },
+  { text: "Si tenés un proyecto, negocio o proceso que quieras mejorar, podés traerlo para aplicarlo en el ejercicio. Si no, te ayudamos a encontrar un caso útil para trabajar." },
 ];
 
 export function Requisitos() {

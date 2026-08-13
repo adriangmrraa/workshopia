@@ -1,23 +1,23 @@
 const assets = [
   {
-    title: "REPOSITORIO REAL",
+    title: "BASE REAL",
     description:
-      "Una base descargable en formato ZIP con código, estructura y configuración lista para usar.",
+      "Una estructura descargable con código, configuración y lógica lista para estudiar, reutilizar y adaptar.",
   },
   {
     title: "CÓDIGO",
     description:
-      "Código y estructura sobre la que podés trabajar. Mirá cómo está armado y modificalo a tu necesidad.",
+      "La arquitectura y la lógica detrás de la solución, para que puedas entender cómo se arma y modificarla con criterio.",
   },
   {
     title: "RECURSOS",
     description:
-      "Plantillas, configuraciones y materiales utilizados durante el workshop.",
+      "Plantillas, configuraciones y materiales prácticos que se usan en la ejecución real del sistema.",
   },
   {
     title: "IMPLEMENTACIÓN",
     description:
-      "Vas a ver cómo se construye y funciona en vivo. De prototipo a solución en una jornada.",
+      "Vas a ver cómo se toma la idea, se conecta con datos y se lleva a una solución operativa en vivo.",
   },
 ];
 

@@ -9,15 +9,15 @@ export function ParaQuien() {
               ¿Para quién es?
             </h2>
             <p className="text-xl text-white/60 leading-relaxed font-light">
-              No necesitás ser experto en IA. Vamos a construir desde una base preparada y explicar cada parte del proceso.
+              No hace falta ser experto. Lo importante es querer construir, probar ideas y entender cómo encaja IA con negocio, flujo y datos reales.
             </p>
             <ul className="space-y-4">
               {[
-                "Querés empezar a construir soluciones con IA",
-                "Sos desarrollador o estudiante",
-                "Trabajás en tecnología",
-                "Sos emprendedor y tenés una idea para convertirla en algo funcional",
-                "Querés entender mejor cómo se integran IA, software y APIs",
+                "Querés empezar a construir soluciones con IA que tengan sentido real",
+                "Sos desarrollador, estudiante o profesional de tecnología",
+                "Trabajás con procesos, equipos o clientes y querés automatizar mejor",
+                "Tenés una idea de negocio o producto y querés verla materializarse",
+                "Querés entender cómo conectar IA, software, APIs y decisiones de negocio",
               ].map((item, index) => (
                 <li
                   key={item}

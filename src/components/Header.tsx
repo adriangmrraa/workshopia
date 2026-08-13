@@ -15,7 +15,25 @@ export function Header() {
             className="transition-opacity group-hover:opacity-80 h-12 sm:h-14 w-auto"
           />
         </Link>
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+        <nav className="hidden md:flex items-center gap-6 xl:gap-8 text-sm font-medium">
+          <a
+            href="#que-hacemos"
+            className="text-white/50 hover:text-white transition-colors"
+          >
+            Metodología
+          </a>
+          <a
+            href="#credenciales"
+            className="text-white/50 hover:text-white transition-colors"
+          >
+            Experiencia
+          </a>
+          <a
+            href="#quien-lo-dicta"
+            className="text-white/50 hover:text-white transition-colors"
+          >
+            Quién soy
+          </a>
           <a
             href="#modalidades"
             className="text-white/50 hover:text-white transition-colors"
@@ -27,12 +45,6 @@ export function Header() {
             className="text-white/50 hover:text-white transition-colors"
           >
             Cronograma
-          </a>
-          <a
-            href="#requisitos"
-            className="text-white/50 hover:text-white transition-colors"
-          >
-            Requisitos
           </a>
           <a
             href="#faq"

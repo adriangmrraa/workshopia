@@ -1,12 +1,12 @@
 const schedule = [
-  { time: "10:00", title: "Apertura", description: "Qué vamos a construir y cómo funciona el repositorio." },
-  { time: "10:30", title: "Arquitectura", description: "Cómo pensar una solución con IA: problema, componentes, modelos, datos y lógica." },
-  { time: "11:30", title: "Construcción", description: "Empezá a trabajar sobre la solución real: código, configuración e integraciones." },
-  { time: "13:00", title: "Break", description: "Almuerzo y descanso." },
-  { time: "14:00", title: "Implementación", description: "Hacé que esto funcione en vivo." },
-  { time: "15:30", title: "Personalización", description: "Tomá la base y adaptala. Variables, conexiones y próximos pasos." },
-  { time: "16:15", title: "De prototipo a solución", description: "Errores comunes, seguridad, costos y escalabilidad." },
-  { time: "17:00", title: "Cierre", description: "Entrega del repositorio, recursos, preguntas y próximos pasos." },
+  { time: "10:00", title: "Apertura", description: "Definimos qué vamos a construir y cómo se organiza la base de trabajo." },
+  { time: "10:30", title: "Arquitectura", description: "Cómo pensar una solución con IA desde el problema, los datos, los componentes y la lógica del negocio." },
+  { time: "11:30", title: "Construcción", description: "Empezamos a montar la solución real: código, configuración, flujo y conexiones." },
+  { time: "13:00", title: "Break", description: "Pausa para recargar y seguir con criterio." },
+  { time: "14:00", title: "Implementación", description: "Hacemos que la solución funcione en vivo y se pruebe con contexto real." },
+  { time: "15:30", title: "Personalización", description: "Adaptamos la base a tu contexto, variables, flujos y próximos pasos." },
+  { time: "16:15", title: "De prototipo a sistema", description: "Revisamos errores comunes, seguridad, costos y escalabilidad." },
+  { time: "17:00", title: "Cierre", description: "Entrega de la base, recursos, preguntas y próximos pasos para seguir ejecutando." },
 ];
 
 export function Cronograma() {
@@ -19,7 +19,7 @@ export function Cronograma() {
             Cronograma
           </h2>
           <p className="text-xl text-white/60 font-light">
-            7 horas de jornada total con descansos incluidos.
+            7 horas para pasar de idea, a arquitectura, a ejecución real con criterio.
           </p>
         </div>
         <div className="max-w-3xl mx-auto">

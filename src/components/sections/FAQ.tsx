@@ -9,57 +9,57 @@ const faqs = [
   {
     question: "¿Es presencial u online?",
     answer:
-      "Tenés dos modalidades: presencial en Formosa Capital o online en vivo por Zoom/Google Meet. En ambos casos vas a ver exactamente la pantalla, demostraciones y desarrollo.",
+      "Tenés dos caminos: presencial en Formosa Capital o online en vivo. En ambos casos vas a ver la ejecución real, la lógica detrás y la forma de trabajar con IA sobre un caso concreto.",
   },
   {
     question: "¿Cuánto dura?",
     answer:
-      "La jornada completa es de 10:00 a 17:00, con descansos y pausa para almuerzo incluidas.",
+      "La jornada es de 10:00 a 17:00 con pausas incluidas, pensada para recorrer desde la idea hasta la ejecución real sin saturar.",
   },
   {
     question: "¿Necesito saber programar?",
     answer:
-      "No es necesario ser experto. Vamos a construir desde una base preparada y explicar cada parte del proceso para que lo entiendas y lo puedas seguir modificando.",
+      "No hace falta ser experto. Lo importante es tener interés en construir, probar y entender cómo se toma una idea y se convierte en una solución con IA.",
   },
   {
     question: "¿Qué recibo después de inscribirme?",
     answer:
-      "Recibís confirmación por email con fecha, modalidad, horario, qué llevar y qué preparar. Después del workshop accedés al repositorio descargable.",
+      "Recibís confirmación con fecha, modalidad, horario, materiales, preparación y acceso a la base de trabajo para seguir desarrollando después del taller.",
   },
   {
     question: "¿Recibo el repositorio?",
     answer:
-      "Sí, el repositorio completo con código, recursos y configuraciones lo recibís después del workshop para seguir trabajando.",
+      "Sí. Te queda una base descargable con código, estructura, recursos y configuración para seguir estudiando y adaptando la solución.",
   },
   {
     question: "¿Puedo participar desde otra ciudad?",
     answer:
-      "Sí, con la modalidad online en vivo podés participar desde cualquier lugar con conexión a internet.",
+      "Sí. La modalidad online te permite participar desde cualquier lugar con conexión a internet y seguir la ejecución en vivo.",
   },
   {
     question: "¿Se graba?",
     answer:
-      "La grabación no está incluida en la inscripción estándar. Consultanos por disponibilidad de grabación.",
+      "La grabación no está incluida en la inscripción estándar. Si te interesa, consultanos por disponibilidad y condiciones.",
   },
   {
     question: "¿Qué pasa si no puedo asistir?",
     answer:
-      "Consultanos por la política de cancelación. Te recomendamos coordinar con anticipación para reubicarte en otra fecha si está disponible.",
+      "Consultanos por la política de cancelación y reubicación. Si hay disponibilidad, se puede reprogramar tu participación.",
   },
   {
     question: "¿Cómo recibo el material?",
     answer:
-      "El material se entrega por email y/o drive privado después del workshop, con acceso para descargar el repositorio y recursos.",
+      "El material se entrega por email y/o drive privado con acceso al repositorio, configuraciones y recursos para continuar trabajando.",
   },
   {
     question: "¿Dónde se realiza?",
     answer:
-      "Formosa Capital. Lugar a confirmar. Te enviaremos la dirección exacta por email una semana antes del evento.",
+      "En Formosa Capital con la modalidad presencial. La dirección exacta te la enviamos por email antes del evento.",
   },
   {
     question: "¿Puedo pedir factura?",
     answer:
-      "Sí, emitimos el comprobante correspondiente. Consultanos por los datos de facturación al inscribirte.",
+      "Sí. Te emitimos el comprobante correspondiente para que lo puedas gestionar según tu necesidad.",
   },
 ];
 

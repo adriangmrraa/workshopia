@@ -5,14 +5,14 @@ const plans = [
   {
     title: "ONLINE",
     price: "$30.000",
-    description: "Participación virtual en el workshop.",
+    description: "Participación en vivo con acceso a la práctica, la explicación y la base para seguir construyendo.",
     features: [
       "Workshop completo",
-      "Repositorio de recursos",
-      "Herramientas y materiales descargables",
-      "Acompañamiento durante el workshop",
-      "Espacio para preguntas",
-      "Material para continuar practicando después",
+      "Base de trabajo y recursos",
+      "Materiales descargables",
+      "Acompañamiento en tiempo real",
+      "Espacio para preguntas y resolución de dudas",
+      "Material para seguir practicando después",
     ],
     cta: "Inscribirme online",
   },
@@ -20,14 +20,14 @@ const plans = [
     title: "PRESENCIAL",
     location: "Formosa Capital",
     price: "$70.000",
-    description: "Participación presencial + experiencia presencial.",
+    description: "Experiencia presencial con más interacción, seguimiento directo y una mirada más cercana a la ejecución real.",
     features: [
       "Workshop completo",
-      "Repositorio de recursos",
-      "Herramientas y materiales descargables",
-      "Acompañamiento durante el workshop",
-      "Espacio para preguntas",
-      "Material para continuar practicando después",
+      "Base de trabajo y recursos",
+      "Materiales descargables",
+      "Acompañamiento en vivo",
+      "Preguntas y feedback directo",
+      "Material para seguir practicando después",
       "Acceso directo al instructor",
     ],
     cta: "Reservar lugar presencial",
@@ -37,16 +37,16 @@ const plans = [
     title: "EMPRESA",
     price: "$150.000",
     description:
-      "Workshop + repositorio + recursos + auditoría empresarial personalizada de 2 jornadas laborales completas (~16 horas).",
+      "Diseño de una intervención práctica para equipos que quieren aplicar IA real sobre procesos, decisiones y automatizaciones concretas.",
     features: [
       "Workshop completo",
-      "Repositorio de recursos",
+      "Base de trabajo y recursos",
       "Herramientas y materiales descargables",
-      "Acompañamiento durante el workshop",
-      "Espacio para preguntas",
-      "Material para continuar practicando después",
+      "Acompañamiento en vivo",
+      "Espacio para preguntas y revisión del contexto",
+      "Material para seguir practicando después",
       "Auditoría empresarial personalizada",
-      "Trabajo sobre tus procesos reales",
+      "Trabajo sobre procesos reales del equipo",
       "16 horas de seguimiento",
     ],
     cta: "Solicitar modalidad empresa",
@@ -63,7 +63,7 @@ export function Modalidades() {
             Modalidades
           </h2>
           <p className="text-xl text-white/60 max-w-3xl mx-auto font-light text-balance">
-            Todos los niveles incluyen el workshop completo, repositorio de recursos, herramientas descargables, acompañamiento, espacio para preguntas y material para seguir practicando después.
+            Todos los niveles incluyen la práctica completa, la base de trabajo, materiales para seguir construyendo y acompañamiento para que la ejecución sea clara y aplicable.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">

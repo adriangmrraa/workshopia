@@ -2,32 +2,32 @@ const steps = [
   {
     title: "IDEA",
     description:
-      "Definimos el problema y el objetivo de la solución.",
+      "Definimos el problema, el objetivo y la lógica que hace que la solución valga la pena.",
   },
   {
     title: "ARQUITECTURA",
     description:
-      "Diseñamos la estructura, componentes, modelos y flujo de datos.",
+      "Diseñamos la estructura, los componentes, los datos y el flujo para que la solución funcione sin fricción.",
   },
   {
     title: "CÓDIGO",
     description:
-      "Construimos sobre la base preparada, explicando cada parte.",
+      "Construimos sobre una base real, entendiendo cada decisión y cada punto de conexión.",
   },
   {
     title: "IA",
     description:
-      "Integramos el modelo, prompts y lógica de inteligencia artificial.",
+      "Integramos modelos, prompts y lógica de decisión para que la automatización responda con criterio.",
   },
   {
     title: "INTEGRACIONES",
     description:
-      "Conectamos APIs, servicios y herramientas del ecosistema.",
+      "Conectamos APIs, servicios y herramientas del ecosistema para que todo funcione en conjunto.",
   },
   {
     title: "IMPLEMENTACIÓN",
     description:
-      "De prototipo a solución: deployment, costos, seguridad y escalabilidad.",
+      "De prototipo a sistema operativo: despliegue, costos, seguridad, observabilidad y escalabilidad.",
   },
 ];
 
