@@ -8,11 +8,11 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/logo.svg"
+              src="/logos/futurelogopng.png"
               alt="Future"
               width={100}
-              height={40}
-              className="transition-opacity group-hover:opacity-80"
+              height={32}
+              className="transition-opacity group-hover:opacity-80 w-20 sm:w-24 md:w-28 h-auto"
             />
           </Link>
           <nav className="flex flex-wrap items-center justify-center gap-8 text-sm text-white/50">

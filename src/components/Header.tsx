@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 border-b border-white/5">
+    <header className="fixed top-0 left-0 w-full z-50 border-b border-white/5 bg-[#0a0b0d]/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <Image
-            src="/logo.svg"
+            src="/logos/futurelogopng.png"
             alt="Future"
             width={100}
-            height={40}
+            height={32}
             priority
-            className="transition-opacity group-hover:opacity-80"
+            className="transition-opacity group-hover:opacity-80 w-20 sm:w-24 md:w-28 h-auto"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
