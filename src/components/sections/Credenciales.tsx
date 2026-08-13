@@ -1,47 +1,55 @@
-const highlights = [
+const pillars = [
   {
-    title: "Agente conversacional",
+    title: "Arquitectura de agentes",
     description:
-      "Diseño e implemento agentes en WhatsApp Cloud API integrados con n8n y CRM (Airtable/Sheets/Supabase).",
+      "Diseño agentes con contexto estratégico, no solo prompts. Aplico técnicas de memoria, RAG, guardrails y orquestación multi-servicio para que el agente responda con precisión.",
   },
   {
-    title: "Automatización end-to-end",
+    title: "Agentes con código",
     description:
-      "Orquesto captación, scoring, routing, SLAs y reporting, reduciendo tiempos de respuesta y errores operativos.",
+      "No solo flujos visuales. Construyo agentes programáticos en Python/FastAPI y TypeScript/Next.js, con herramientas custom, validación de entradas y control de errores en producción.",
   },
   {
-    title: "Dashboards y datos",
+    title: "Integración real con negocios",
     description:
-      "Construyo dashboards en Next.js + Node.js con métricas comerciales y operativas, roles/ACL y series históricas.",
+      "Conecto agentes con WhatsApp Business, catálogos, pasarelas de pago, CRMs y dashboards. El agente no vive en una demo: opera sobre datos reales.",
   },
   {
-    title: "Integraciones y despliegue",
+    title: "Medición y crecimiento",
     description:
-      "Despliego en Docker/EasyPanel sobre VPS, con manejo de entornos, logging y backups.",
+      "Implemento analytics, reporting y experimentos continuos. Midio lo que importa: respuesta, conversión, CSAT, no-shows y LTV.",
   },
 ];
 
 const skills = [
-  "WhatsApp Cloud API",
-  "n8n",
-  "Supabase",
-  "OpenAI / RAG",
   "Next.js",
   "Node.js",
+  "Python",
+  "FastAPI",
+  "LangChain",
+  "OpenAI / RAG",
+  "WhatsApp Cloud API",
+  "YCloud",
+  "n8n",
+  "Supabase",
+  "PostgreSQL",
+  "Drizzle ORM",
+  "Docker",
+  "VPS",
   "Meta Ads",
   "GA4",
-  "Docker",
-  "Airtable / Sheets",
-  "Mercado Pago",
-  "REST APIs",
+  "Remotion",
+  "Socket.IO",
+  "Redis",
 ];
 
 const results = [
+  { metric: "+24%", label: "Tasa de respuesta" },
   { metric: "-33%", label: "Tiempo de respuesta" },
-  { metric: "+22%", label: "Conversión lead → turno" },
-  { metric: "-8 h/sem", label: "Reporting manual" },
   { metric: "-29%", label: "Tickets repetidos" },
   { metric: "92/100", label: "CSAT" },
+  { metric: "-8 h/sem", label: "Reporting manual" },
+  { metric: ">99,9%", label: "Uptime" },
 ];
 
 export function Credenciales() {
@@ -59,7 +67,7 @@ export function Credenciales() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-          {highlights.map((item, index) => (
+          {pillars.map((item, index) => (
             <div
               key={item.title}
               className="glass rounded-2xl p-6 hover:bg-white/[0.06] transition-all duration-500 hover:-translate-y-1 animate-fade-in-up"
