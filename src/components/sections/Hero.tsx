@@ -61,7 +61,7 @@ export function Hero() {
             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-black/40 animate-float">
               <Image
                 src="/images/adrian-gamarra.jpg"
-                alt="Adrián Gamarra"
+                alt="Hector Adrian Arganaraz Gamarra"
                 width={600}
                 height={700}
                 className="w-full h-auto object-cover"

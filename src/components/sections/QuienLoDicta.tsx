@@ -11,7 +11,7 @@ export function QuienLoDicta() {
             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-black/40 max-w-md mx-auto lg:mx-0">
               <Image
                 src="/images/adrian-gamarra.jpg"
-                alt="Adrián Gamarra"
+                alt="Hector Adrian Arganaraz Gamarra"
                 width={500}
                 height={600}
                 className="w-full h-auto object-cover"
@@ -24,7 +24,7 @@ export function QuienLoDicta() {
               ¿Quién lo dicta?
             </h2>
             <p className="text-3xl sm:text-4xl font-black gradient-text tracking-tight-custom">
-              Adrián Gamarra
+              Hector Adrian Arganaraz Gamarra
             </p>
             <div className="space-y-5 text-white/70 text-lg leading-relaxed">
               <p>
