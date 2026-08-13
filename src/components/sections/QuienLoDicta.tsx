@@ -28,19 +28,7 @@ export function QuienLoDicta() {
             </p>
             <div className="space-y-5 text-white/70 text-lg leading-relaxed">
               <p>
-                Desarrollador de software, especialista en IA aplicada, automatización y transformación tecnológica.
-              </p>
-              <p>
-                Fundador de <span className="text-[#E62E2E] font-semibold">Fusa Labs</span> y actualmente <span className="text-[#E62E2E] font-semibold">Marketing Automation Specialist en codexy</span>, donde diseño e implemento ecosistemas de atención al cliente 24/7 con agentes de IA, n8n, APIs y bases de datos vectoriales.
-              </p>
-              <p>
-                Trabajo con tecnologías como <span className="text-[#E62E2E] font-semibold">Next.js</span>, <span className="text-[#E62E2E] font-semibold">Node.js</span>, <span className="text-[#E62E2E] font-semibold">Python</span>, <span className="text-[#E62E2E] font-semibold">n8n</span>, <span className="text-[#E62E2E] font-semibold">PostgreSQL</span> y <span className="text-[#E62E2E] font-semibold">vector databases</span>. Mi foco es convertir procesos manuales en sistemas automáticos, escalables y medibles.
-              </p>
-              <p>
-                También fui coordinador del <span className="text-[#E62E2E] font-semibold">Hackathon Espacial Federal</span> en Formosa y participé en el desarrollo de proyectos como <span className="text-[#E62E2E] font-semibold">"Mi Proceso"</span>, plataforma con IA para seguimiento de expedientes judiciales en tiempo real.
-              </p>
-              <p>
-                Mi experiencia en comunicación, periodismo y redacción me permite transformar lo técnico en mensajes claros que generan resultados.
+                Soy Hector Adrian Arganaraz Gamarra, fundador de Fusa Labs. Mi origen en periodismo y marketing forjó mi enfoque: pensar los productos siempre desde el usuario, la conversión y el negocio. Lidero la visión estratégica y la arquitectura de agentes de IA, conectando necesidades con soluciones viables. Diseño flujos conversacionales y métricas clave para asegurar que cada desarrollo funcione, escale y genere ventas. Combino tecnología e innovación para construir sistemas autónomos que potencian el crecimiento comercial y operativo de todos nuestros clientes.
               </p>
             </div>
           </div>
