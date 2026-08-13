@@ -9,9 +9,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Workshop Práctico de IA — Construí soluciones con IA",
+  title: "Workshop IA — Aprendé a implementar IA de forma práctica",
   description:
-    "Una jornada práctica para aprender construyendo sobre una base real y llevarte un repositorio que podés seguir utilizando después del workshop.",
+    "Workshop intensivo y práctico de IA para llevar a tu trabajo o negocio. Cupos limitados.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className={`${montserrat.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-[#1B1D20] text-[#F5F7FA] font-montserrat">
+      <body className="min-h-full flex flex-col bg-[#0a0b0d] text-[#F5F7FA] font-montserrat selection:bg-[#E62E2E]/40 selection:text-white">
         {children}
       </body>
     </html>

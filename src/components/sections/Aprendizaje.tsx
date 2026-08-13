@@ -33,13 +33,14 @@ const steps = [
 
 export function Aprendizaje() {
   return (
-    <section id="aprendizaje" className="py-20 lg:py-32 bg-[#2A2D31]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
+    <section id="aprendizaje" className="relative py-24 lg:py-32">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-20 animate-fade-in-up">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white mb-6">
             ¿Qué vas a aprender?
           </h2>
-          <p className="mt-4 text-lg text-[#8A8D91] max-w-2xl mx-auto">
+          <p className="text-xl text-white/60 max-w-2xl mx-auto font-light">
             Recorré el proceso completo de construcción de una solución con IA.
           </p>
         </div>
@@ -47,15 +48,18 @@ export function Aprendizaje() {
           {steps.map((step, index) => (
             <div
               key={step.title}
-              className="bg-[#1B1D20] border border-[#3A3D41] rounded-2xl p-6 hover:border-[#E62E2E] transition-colors"
+              className="group relative glass rounded-2xl p-8 hover:bg-white/[0.06] transition-all duration-500 hover:-translate-y-1 animate-fade-in-up"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="flex items-center gap-4 mb-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-[#E62E2E] text-white font-bold text-sm">
+              <div className="flex items-center gap-4 mb-5">
+                <span className="flex items-center justify-center w-12 h-12 rounded-full bg-[#E62E2E] text-white font-bold text-sm shadow-[0_0_20px_rgba(230,46,46,0.3)]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <h3 className="text-lg font-bold">{step.title}</h3>
+                <h3 className="text-xl font-bold text-white tracking-tight-custom">
+                  {step.title}
+                </h3>
               </div>
-              <p className="text-[#8A8D91] text-sm leading-relaxed">
+              <p className="text-white/50 text-sm leading-relaxed">
                 {step.description}
               </p>
             </div>

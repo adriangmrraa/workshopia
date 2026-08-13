@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const assets = [
   {
     title: "REPOSITORIO REAL",
@@ -29,24 +27,28 @@ const assets = [
 
 export function QueTeLlevas() {
   return (
-    <section id="que-te-llevas" className="py-20 lg:py-32 bg-[#2A2D31]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
+    <section id="que-te-llevas" className="relative py-24 lg:py-32">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16 animate-fade-in-up">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white">
             ¿Qué te llevás?
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {assets.map((item) => (
+          {assets.map((item, index) => (
             <div
               key={item.title}
-              className="bg-[#1B1D20] border border-[#3A3D41] rounded-2xl p-6 hover:border-[#E62E2E] transition-colors"
+              className="group relative glass rounded-2xl p-8 hover:bg-white/[0.06] transition-all duration-500 hover:-translate-y-1 animate-fade-in-up"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="text-4xl mb-4">{item.icon}</div>
-              <h3 className="text-lg font-bold mb-2 text-[#E62E2E]">
+              <div className="text-4xl mb-6 transition-transform duration-500 group-hover:scale-110">
+                {item.icon}
+              </div>
+              <h3 className="text-lg font-bold text-white mb-3 tracking-tight-custom">
                 {item.title}
               </h3>
-              <p className="text-[#8A8D91] text-sm leading-relaxed">
+              <p className="text-white/50 text-sm leading-relaxed">
                 {item.description}
               </p>
             </div>

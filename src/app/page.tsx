@@ -8,6 +8,7 @@ import { Cronograma } from "@/components/sections/Cronograma";
 import { Modalidades } from "@/components/sections/Modalidades";
 import { QuienLoDicta } from "@/components/sections/QuienLoDicta";
 import { Precio } from "@/components/sections/Precio";
+import { Requisitos } from "@/components/sections/Requisitos";
 import { FAQ } from "@/components/sections/FAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -26,6 +27,7 @@ export default function Home() {
         <Modalidades />
         <QuienLoDicta />
         <Precio />
+        <Requisitos />
         <FAQ />
         <FinalCTA />
       </main>

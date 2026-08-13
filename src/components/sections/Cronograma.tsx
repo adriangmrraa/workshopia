@@ -11,30 +11,39 @@ const schedule = [
 
 export function Cronograma() {
   return (
-    <section id="cronograma" className="py-20 lg:py-32 bg-[#1B1D20]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
+    <section id="cronograma" className="relative py-24 lg:py-32">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-20 animate-fade-in-up">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white mb-6">
             Cronograma
           </h2>
-          <p className="mt-4 text-lg text-[#8A8D91]">
+          <p className="text-xl text-white/60 font-light">
             7 horas de jornada total con descansos incluidos.
           </p>
         </div>
-        <div className="max-w-3xl mx-auto space-y-0">
+        <div className="max-w-3xl mx-auto">
           {schedule.map((item, index) => (
-            <div key={item.time} className="flex gap-6">
+            <div
+              key={item.time}
+              className="group flex gap-8 animate-fade-in-up"
+              style={{ animationDelay: `${index * 80}ms` }}
+            >
               <div className="flex flex-col items-center">
-                <div className="w-14 h-14 rounded-full bg-[#2A2D31] border border-[#3A3D41] flex items-center justify-center">
+                <div className="w-16 h-16 rounded-full glass flex items-center justify-center group-hover:border-[#E62E2E]/50 transition-colors duration-500">
                   <span className="text-sm font-bold text-[#E62E2E]">{item.time}</span>
                 </div>
                 {index < schedule.length - 1 && (
-                  <div className="w-px h-full bg-[#3A3D41] my-2" />
+                  <div className="w-px h-full bg-gradient-to-b from-white/10 to-transparent my-3" />
                 )}
               </div>
-              <div className="pb-10">
-                <h3 className="text-lg font-bold">{item.title}</h3>
-                <p className="text-[#8A8D91] text-sm mt-1">{item.description}</p>
+              <div className="pb-12">
+                <h3 className="text-xl font-bold text-white mb-2 tracking-tight-custom">
+                  {item.title}
+                </h3>
+                <p className="text-white/50 text-sm leading-relaxed">
+                  {item.description}
+                </p>
               </div>
             </div>
           ))}

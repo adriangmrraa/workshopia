@@ -1,34 +1,42 @@
 export function ParaQuien() {
   return (
-    <section id="para-quien" className="py-20 lg:py-32 bg-[#1B1D20]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
-          <div className="space-y-6">
-            <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
+    <section id="para-quien" className="relative py-24 lg:py-32">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          <div className="space-y-8 animate-fade-in-up">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white">
               ¿Para quién es?
             </h2>
-            <p className="text-lg text-[#8A8D91] leading-relaxed">
+            <p className="text-xl text-white/60 leading-relaxed font-light">
               No necesitás ser experto en IA. Vamos a construir desde una base preparada y explicar cada parte del proceso.
             </p>
-            <ul className="space-y-4">
+            <ul className="space-y-5">
               {[
                 "Querés empezar a construir soluciones con IA",
                 "Sos desarrollador o estudiante",
                 "Trabajás en tecnología",
                 "Sos emprendedor y tenés una idea para convertirla en algo funcional",
                 "Querés entender mejor cómo se integran IA, software y APIs",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <span className="mt-1.5 h-2 w-2 rounded-full bg-[#E62E2E] shrink-0" />
-                  <span className="text-[#F5F7FA]">{item}</span>
+              ].map((item, index) => (
+                <li
+                  key={item}
+                  className="flex items-start gap-4 animate-fade-in-up"
+                  style={{ animationDelay: `${index * 80}ms` }}
+                >
+                  <span className="mt-2 h-2 w-2 rounded-full bg-[#E62E2E] shrink-0 shadow-[0_0_8px_rgba(230,46,46,0.5)]" />
+                  <span className="text-white/80 text-lg leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="bg-[#2A2D31] border border-[#3A3D41] rounded-2xl p-8 flex items-center justify-center">
-            <p className="text-xl font-semibold text-center text-[#8A8D91]">
-              &ldquo;No necesitás ser experto en IA. Vamos a construir desde una base preparada y explicar cada parte del proceso.&rdquo;
-            </p>
+          <div className="relative animate-fade-in">
+            <div className="absolute -inset-4 bg-gradient-to-r from-[#E62E2E]/20 to-transparent rounded-3xl blur-2xl" />
+            <div className="relative glass rounded-3xl p-10 flex items-center justify-center min-h-[320px]">
+              <p className="text-2xl sm:text-3xl font-semibold text-center text-white/80 leading-snug tracking-tight-custom">
+                &ldquo;No necesitás ser experto en IA. Vamos a construir desde una base preparada y explicar cada parte del proceso.&rdquo;
+              </p>
+            </div>
           </div>
         </div>
       </div>
