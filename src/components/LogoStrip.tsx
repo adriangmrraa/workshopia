@@ -53,20 +53,20 @@ function isTextLogo(logo: LogoItem): logo is TextLogo {
 function LogoStripInner({ className }: { className?: string }) {
   return (
     <div className={`overflow-hidden ${className || ""}`}>
-      <div className="mb-3 flex items-center justify-center gap-3 px-4 text-[10px] font-semibold uppercase tracking-[0.24em] text-white/50 sm:text-xs">
+      <div className="mb-2 flex items-center justify-center gap-3 px-4 text-[9px] font-semibold uppercase tracking-[0.2em] text-white/50 sm:text-xs">
         <span className="h-px flex-1 bg-white/10" />
         <span>Mis clientes y dónde trabajé</span>
         <span className="h-px flex-1 bg-white/10" />
       </div>
 
-      <div className="flex gap-4 sm:gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 px-4 sm:px-8 lg:px-12 no-scrollbar">
+      <div className="flex gap-3 sm:gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 px-3 sm:px-8 lg:px-12 no-scrollbar">
         {logos.map((logo, index) => (
           <div
             key={index}
-            className="flex-none snap-center flex items-center justify-center h-10 sm:h-12 lg:h-14 px-3 sm:px-4 rounded-lg border border-white/5 bg-white/[0.02] hover:border-[#E62E2E]/30 hover:bg-white/[0.04] transition-all duration-300 cursor-pointer min-w-[100px] sm:min-w-[120px]"
+            className="flex-none snap-center flex items-center justify-center h-9 sm:h-12 lg:h-14 px-2 sm:px-4 rounded-lg border border-white/5 bg-white/[0.02] hover:border-[#E62E2E]/30 hover:bg-white/[0.04] transition-all duration-300 cursor-pointer min-w-[96px] sm:min-w-[120px]"
           >
             {isTextLogo(logo) ? (
-              <span className="text-[10px] sm:text-xs font-medium text-white/70 text-center leading-snug">
+              <span className="text-[9px] sm:text-xs font-medium text-white/70 text-center leading-snug">
                 {logo.label}
               </span>
             ) : (
@@ -87,7 +87,7 @@ function LogoStripInner({ className }: { className?: string }) {
 
 export function MobileLogoStrip() {
   return (
-    <div className="fixed top-16 left-0 w-full z-40 bg-[#0a0b0d]/95 backdrop-blur-sm border-b border-white/5 md:hidden">
+    <div className="w-full bg-[#0a0b0d]/95 backdrop-blur-sm border-b border-white/5 md:hidden">
       <LogoStripInner />
     </div>
   );

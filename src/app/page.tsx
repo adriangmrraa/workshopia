@@ -1,7 +1,11 @@
 ﻿import { Header } from "@/components/Header";
 import { DesktopLogoStrip, MobileLogoStrip } from "@/components/LogoStrip";
-import { Hero } from "@/components/sections/Hero";
 import { Footer } from "@/components/Footer";
+import { Hero } from "@/components/sections/Hero";
+import { Modalidades } from "@/components/sections/Modalidades";
+import { Cronograma } from "@/components/sections/Cronograma";
+import { Requisitos } from "@/components/sections/Requisitos";
+import { FAQ } from "@/components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -15,6 +19,10 @@ export default function Home() {
 
       <main>
         <Hero />
+        <Modalidades />
+        <Cronograma />
+        <Requisitos />
+        <FAQ />
       </main>
 
       <Footer />
