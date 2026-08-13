@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/sections/Hero";
+import { Credenciales } from "@/components/sections/Credenciales";
 import { QueHacemos } from "@/components/sections/QueHacemos";
 import { QueTeLlevas } from "@/components/sections/QueTeLlevas";
 import { ParaQuien } from "@/components/sections/ParaQuien";
@@ -19,6 +20,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Credenciales />
         <QueHacemos />
         <QueTeLlevas />
         <ParaQuien />
