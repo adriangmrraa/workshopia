@@ -1,23 +1,23 @@
 const pillars = [
   {
-    title: "Arquitectura de agentes",
+    title: "Agentes de ventas",
     description:
-      "Diseño agentes con contexto estratégico, no solo prompts. Aplico técnicas de memoria, RAG, guardrails y orquestación multi-servicio para que el agente responda con precisión.",
+      "Diseño agentes que venden: Karen en Muzapp con 27+ herramientas, detección de urgencia, precio sensible y seguimiento automático hasta la compra.",
   },
   {
-    title: "Agentes con código",
+    title: "Agentes de atención al cliente",
     description:
-      "No solo flujos visuales. Construyo agentes programáticos en Python/FastAPI y TypeScript/Next.js, con herramientas custom, validación de entradas y control de errores en producción.",
+      "Sistemas que resuelven sin intervención humana: PointCo Agent para Tienda Nube, WhatsApp Agent Base con 15 tools, routing y SLAs.",
   },
   {
-    title: "Integración real con negocios",
+    title: "Agentes internos operativos",
     description:
-      "Conecto agentes con WhatsApp Business, catálogos, pasarelas de pago, CRMs y dashboards. El agente no vive en una demo: opera sobre datos reales.",
+      "Copilotos y asistentes para equipos: dossier automático de invitados en PeriodistApp, alertas en vivo, Telegram bot interno con 37 tools para gestión.",
   },
   {
-    title: "Medición y crecimiento",
+    title: "Agentes de código",
     description:
-      "Implemento analytics, reporting y experimentos continuos. Midio lo que importa: respuesta, conversión, CSAT, no-shows y LTV.",
+      "Los que uso para construir: agentes locales con contexto estratégico, RAG, guardrails y técnicas de prompt engineering para desarrollar software más rápido.",
   },
 ];
 

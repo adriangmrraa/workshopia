@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="currentColor">
+  <!-- X Icon -->
+  <path d="M10 5 C3 5, 0 12, 5 20 L20 30 L5 40 C0 48, 3 55, 10 55 C15 55, 19 48, 25 38 L25 30 L25 22 C19 12, 15 5, 10 5Z"/>
+  <path d="M40 5 C47 5, 50 12, 45 20 L30 30 L45 40 C50 48, 47 55, 40 55 C35 55, 31 48, 25 38 L25 30 L25 22 C31 12, 35 5, 40 5Z"/>
+  <!-- CODEXY text -->
+  <text x="58" y="43" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="36" letter-spacing="1">CODEXY</text>
+</svg>

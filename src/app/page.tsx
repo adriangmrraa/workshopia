@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/sections/Hero";
+import { LogoStrip } from "@/components/LogoStrip";
 import { Credenciales } from "@/components/sections/Credenciales";
 import { QueHacemos } from "@/components/sections/QueHacemos";
 import { QueTeLlevas } from "@/components/sections/QueTeLlevas";
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <LogoStrip />
         <Credenciales />
         <QueHacemos />
         <QueTeLlevas />
