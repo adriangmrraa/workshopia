@@ -3,25 +3,21 @@ const assets = [
     title: "REPOSITORIO REAL",
     description:
       "Una base descargable en formato ZIP con código, estructura y configuración lista para usar.",
-    icon: "📦",
   },
   {
     title: "CÓDIGO",
     description:
       "Código y estructura sobre la que podés trabajar. Mirá cómo está armado y modificalo a tu necesidad.",
-    icon: "💻",
   },
   {
     title: "RECURSOS",
     description:
       "Plantillas, configuraciones y materiales utilizados durante el workshop.",
-    icon: "🧰",
   },
   {
     title: "IMPLEMENTACIÓN",
     description:
       "Vas a ver cómo se construye y funciona en vivo. De prototipo a solución en una jornada.",
-    icon: "🚀",
   },
 ];
 
@@ -42,9 +38,6 @@ export function QueTeLlevas() {
               className="group relative glass rounded-2xl p-8 hover:bg-white/[0.06] transition-all duration-500 hover:-translate-y-1 animate-fade-in-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="text-4xl mb-6 transition-transform duration-500 group-hover:scale-110">
-                {item.icon}
-              </div>
               <h3 className="text-lg font-bold text-white mb-3 tracking-tight-custom">
                 {item.title}
               </h3>

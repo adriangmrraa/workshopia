@@ -77,9 +77,9 @@ export function Modalidades() {
               }`}
               style={{ animationDelay: `${index * 120}ms` }}
             >
-              {plan.highlighted && (
+                {plan.highlighted && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-[#E62E2E] text-white text-[10px] font-bold rounded-full uppercase tracking-widest shadow-[0_0_20px_rgba(230,46,46,0.4)]">
-                  Más elegido
+                  Mas elegido
                 </div>
               )}
               <div className="mb-8">
@@ -87,7 +87,7 @@ export function Modalidades() {
                   {plan.title}
                 </h3>
                 {plan.location && (
-                  <p className="text-sm text-white/40">📍 {plan.location}</p>
+                  <p className="text-sm text-white/40">Formosa Capital</p>
                 )}
               </div>
               <p className="text-4xl font-black text-[#E62E2E] mb-3 tracking-tight-custom">

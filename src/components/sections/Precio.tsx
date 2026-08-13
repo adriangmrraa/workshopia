@@ -35,23 +35,20 @@ export function Precio() {
             <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
             <div className="grid sm:grid-cols-3 gap-6 text-sm">
               <div className="flex items-center gap-3">
-                <span className="text-lg">📅</span>
+                <span className="text-lg">Fecha:</span>
                 <div>
-                  <span className="text-white/40">Fecha:</span>{" "}
-                  <span className="text-white font-medium">Sábado 5 de septiembre. Fecha exacta a confirmar.</span>
+                  <span className="text-white/40">Sábado 5 de septiembre. Fecha exacta a confirmar.</span>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-lg">📍</span>
+                <span className="text-lg">Presencial:</span>
                 <div>
-                  <span className="text-white/40">Presencial:</span>{" "}
                   <span className="text-white font-medium">Formosa Capital</span>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-lg">💻</span>
+                <span className="text-lg">Online:</span>
                 <div>
-                  <span className="text-white/40">Online:</span>{" "}
                   <span className="text-white font-medium">Google Meet o Zoom</span>
                 </div>
               </div>

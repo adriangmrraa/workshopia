@@ -1,11 +1,11 @@
 const requirements = [
-  { emoji: "💻", text: "Una computadora personal para trabajar durante el workshop." },
-  { emoji: "🤖", text: "Interés en Inteligencia Artificial y automatización." },
-  { emoji: "🧠", text: "Conocimientos básicos de uso de computadora e Internet." },
-  { emoji: "🔑", text: "Poder crear y utilizar cuentas en las herramientas que vamos a utilizar durante la jornada." },
-  { emoji: "📂", text: "Tener disponible un espacio para descargar el repositorio y los recursos del workshop." },
-  { emoji: "🛠️", text: "Tener ganas de hacer y experimentar, no solamente mirar la clase." },
-  { emoji: "💡", text: "Si tenés un proyecto, emprendimiento, negocio o proceso que quieras mejorar con IA, podés traerlo como caso práctico. En el caso de que no consigas, te vamos a ayudar a que lo encuentres." },
+  { text: "Una computadora personal para trabajar durante el workshop." },
+  { text: "Interés en Inteligencia Artificial y automatización." },
+  { text: "Conocimientos básicos de uso de computadora e Internet." },
+  { text: "Poder crear y utilizar cuentas en las herramientas que vamos a utilizar durante la jornada." },
+  { text: "Tener disponible un espacio para descargar el repositorio y los recursos del workshop." },
+  { text: "Tener ganas de hacer y experimentar, no solamente mirar la clase." },
+  { text: "Si tenés un proyecto, emprendimiento, negocio o proceso que quieras mejorar con IA, podés traerlo como caso práctico. En el caso de que no consigas, te vamos a ayudar a que lo encuentres." },
 ];
 
 export function Requisitos() {
@@ -26,7 +26,7 @@ export function Requisitos() {
                 className="flex items-start gap-5 animate-fade-in-up"
                 style={{ animationDelay: `${index * 80}ms` }}
               >
-                <span className="text-2xl shrink-0 mt-0.5">{item.emoji}</span>
+                <span className="mt-0.5 h-2 w-2 rounded-full bg-[#E62E2E] shrink-0 shadow-[0_0_8px_rgba(230,46,46,0.5)]" />
                 <span className="text-white/70 leading-relaxed">{item.text}</span>
               </div>
             ))}
