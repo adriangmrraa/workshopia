@@ -55,10 +55,10 @@ const plans = [
 
 export function Modalidades() {
   return (
-    <section id="modalidades" className="relative py-24 lg:py-32">
+    <section id="modalidades" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 animate-fade-in-up">
+        <div className="text-center mb-10 lg:mb-16 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white mb-6">
             Modalidades
           </h2>
@@ -66,7 +66,7 @@ export function Modalidades() {
             Todos los niveles incluyen el workshop completo, repositorio de recursos, herramientas descargables, acompañamiento, espacio para preguntas y material para seguir practicando después.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div
               key={plan.title}

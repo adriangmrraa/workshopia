@@ -54,10 +54,10 @@ const results = [
 
 export function Credenciales() {
   return (
-    <section id="credenciales" className="relative py-24 lg:py-32">
+    <section id="credenciales" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center mb-20 animate-fade-in-up">
+          <div className="max-w-4xl mx-auto text-center mb-12 lg:mb-20 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white mb-6">
             ¿Por qué escucharme?
           </h2>
@@ -66,7 +66,7 @@ export function Credenciales() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12 lg:mb-20">
           {pillars.map((item, index) => (
             <div
               key={item.title}
@@ -83,7 +83,7 @@ export function Credenciales() {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 mb-20">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 mb-12 lg:mb-20">
           <div className="animate-fade-in-up">
             <h3 className="text-2xl font-black text-white mb-8 tracking-tight-custom">
               Skills
@@ -123,7 +123,7 @@ export function Credenciales() {
         </div>
 
         <div className="max-w-3xl mx-auto animate-fade-in-up">
-          <div className="glass rounded-3xl p-8 sm:p-14">
+          <div className="glass rounded-3xl p-6 sm:p-14">
             <h3 className="text-2xl font-black text-white mb-8 tracking-tight-custom">
               Educación
             </h3>

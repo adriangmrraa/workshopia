@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export function QuienLoDicta() {
   return (
-    <section id="quien-lo-dicta" className="relative py-24 lg:py-32">
+    <section id="quien-lo-dicta" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="relative animate-fade-in">
             <div className="absolute -inset-4 bg-gradient-to-r from-[#E62E2E]/15 to-transparent rounded-3xl blur-2xl" />
             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-black/40 max-w-md mx-auto lg:mx-0">

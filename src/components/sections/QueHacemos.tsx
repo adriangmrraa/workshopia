@@ -1,6 +1,6 @@
 export function QueHacemos() {
   return (
-    <section id="que-hacemos" className="relative py-24 lg:py-32">
+    <section id="que-hacemos" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">

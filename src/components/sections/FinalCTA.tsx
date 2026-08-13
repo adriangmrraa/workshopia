@@ -3,7 +3,7 @@ const GOOGLE_FORM_URL =
 
 export function FinalCTA() {
   return (
-    <section className="relative py-24 lg:py-32 overflow-hidden">
+    <section className="relative py-12 lg:py-20 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[#E62E2E]/10 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(230,46,46,0.15),transparent_60%)]" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in-up">

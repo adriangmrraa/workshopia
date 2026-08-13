@@ -10,16 +10,16 @@ const requirements = [
 
 export function Requisitos() {
   return (
-    <section id="requisitos" className="relative py-24 lg:py-32">
+    <section id="requisitos" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-16 animate-fade-in-up">
+          <div className="text-center mb-10 lg:mb-16 animate-fade-in-up">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white">
               Requisitos para participar
             </h2>
           </div>
-          <div className="glass rounded-3xl p-8 sm:p-14 space-y-8">
+          <div className="glass rounded-3xl p-6 sm:p-10 space-y-6">
             {requirements.map((item, index) => (
               <div
                 key={index}

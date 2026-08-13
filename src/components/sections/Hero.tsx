@@ -9,9 +9,22 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-[#0a0b0d] via-[#0a0b0d] to-[#1a1c20]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(230,46,46,0.1),transparent_55%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
-        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          <div className="space-y-8 animate-fade-in-up">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-24">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+          <div className="relative order-2 lg:order-1 animate-fade-in">
+            <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/40 max-h-[45vh] lg:max-h-none">
+              <Image
+                src="/images/adrian-gamarra.jpg"
+                alt="Hector Adrian Arganaraz Gamarra"
+                width={600}
+                height={700}
+                className="w-full h-auto max-h-[45vh] object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a0b0d]/70 via-transparent to-transparent" />
+            </div>
+          </div>
+          <div className="space-y-6 order-1 lg:order-2 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-xs font-semibold text-[#9CA3AF] uppercase tracking-widest">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#E62E2E] opacity-75" />

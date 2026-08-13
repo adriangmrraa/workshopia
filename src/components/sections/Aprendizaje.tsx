@@ -33,10 +33,10 @@ const steps = [
 
 export function Aprendizaje() {
   return (
-    <section id="aprendizaje" className="relative py-24 lg:py-32">
+    <section id="aprendizaje" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20 animate-fade-in-up">
+        <div className="text-center mb-12 lg:mb-16 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white mb-6">
             ¿Qué vas a aprender?
           </h2>
@@ -44,7 +44,7 @@ export function Aprendizaje() {
             Recorré el proceso completo de construcción de una solución con IA.
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {steps.map((step, index) => (
             <div
               key={step.title}

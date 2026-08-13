@@ -11,10 +11,10 @@ const schedule = [
 
 export function Cronograma() {
   return (
-    <section id="cronograma" className="relative py-24 lg:py-32">
+    <section id="cronograma" className="relative py-12 lg:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0b0d] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20 animate-fade-in-up">
+        <div className="text-center mb-12 lg:mb-16 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight-custom text-white mb-6">
             Cronograma
           </h2>
@@ -37,7 +37,7 @@ export function Cronograma() {
                   <div className="w-px h-full bg-gradient-to-b from-white/10 to-transparent my-3" />
                 )}
               </div>
-              <div className="pb-12">
+              <div className="pb-8">
                 <h3 className="text-xl font-bold text-white mb-2 tracking-tight-custom">
                   {item.title}
                 </h3>
