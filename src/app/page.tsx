@@ -19,9 +19,9 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
+      <LogoStrip />
       <main>
         <Hero />
-        <LogoStrip />
         <Credenciales />
         <QueHacemos />
         <QueTeLlevas />

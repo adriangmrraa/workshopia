@@ -12,7 +12,7 @@ export function Header() {
             width={100}
             height={32}
             priority
-            className="transition-opacity group-hover:opacity-80 w-20 sm:w-24 md:w-28 h-auto"
+            className="transition-opacity group-hover:opacity-80 h-12 sm:h-14 w-auto"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
