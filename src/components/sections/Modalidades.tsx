@@ -4,7 +4,7 @@ const GOOGLE_FORM_URL =
 const plans = [
   {
     title: "ONLINE",
-    price: "$30.000",
+    price: "$0",
     description: "Participación en vivo con acceso a la práctica, la explicación y la base para seguir construyendo.",
     features: [
       "Workshop completo",
@@ -19,7 +19,7 @@ const plans = [
   {
     title: "PRESENCIAL",
     location: "Formosa Capital",
-    price: "$70.000",
+    price: "$170.000",
     description: "Experiencia presencial con más interacción, seguimiento directo y una mirada más cercana a la ejecución real.",
     features: [
       "Workshop completo",
@@ -35,7 +35,7 @@ const plans = [
   },
   {
     title: "EMPRESA",
-    price: "$150.000",
+    price: "$250.000",
     description:
       "Diseño de una intervención práctica para equipos que quieren aplicar IA real sobre procesos, decisiones y automatizaciones concretas.",
     features: [

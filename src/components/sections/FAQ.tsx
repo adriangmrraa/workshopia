@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "¿Cuánto dura?",
     answer:
-      "La jornada es de 10:00 a 17:00 con pausas incluidas, pensada para recorrer desde la idea hasta la ejecución real sin saturar.",
+      "La jornada es de 09:00 a 17:00 con pausas incluidas, pensada para recorrer desde la idea hasta la ejecución real sin saturar.",
   },
   {
     question: "¿Necesito saber programar?",

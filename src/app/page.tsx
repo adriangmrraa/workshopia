@@ -8,6 +8,7 @@ import { ParaQuien } from "@/components/sections/ParaQuien";
 import { QueTeLlevas } from "@/components/sections/QueTeLlevas";
 import { Aprendizaje } from "@/components/sections/Aprendizaje";
 import { QuienLoDicta } from "@/components/sections/QuienLoDicta";
+import { Metodologia } from "@/components/sections/Metodologia";
 import { Modalidades } from "@/components/sections/Modalidades";
 import { Cronograma } from "@/components/sections/Cronograma";
 import { Requisitos } from "@/components/sections/Requisitos";
@@ -31,6 +32,7 @@ export default function Home() {
         <QueTeLlevas />
         <Aprendizaje />
         <QuienLoDicta />
+        <Metodologia />
         <Modalidades />
         <Cronograma />
         <Requisitos />
