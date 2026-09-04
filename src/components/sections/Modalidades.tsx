@@ -4,7 +4,7 @@ const GOOGLE_FORM_URL =
 const plans = [
   {
     title: "ONLINE",
-    price: "$0",
+    price: "$30.000",
     description: "Participación en vivo con acceso a la práctica, la explicación y la base para seguir construyendo.",
     features: [
       "Workshop completo",

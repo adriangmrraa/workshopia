@@ -18,7 +18,7 @@ export function Precio() {
           <div className="glass rounded-3xl p-6 sm:p-10 space-y-6 animate-fade-in-up">
             <div className="grid sm:grid-cols-3 gap-8">
               {[
-                { label: "Online", price: "$0" },
+                { label: "Online", price: "$30.000" },
                 { label: "Presencial", price: "$170.000" },
                 { label: "Empresa", price: "$250.000" },
               ].map((item) => (
